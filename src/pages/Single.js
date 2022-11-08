@@ -1,13 +1,10 @@
 import React from 'react'
 import Breadcrumbs from '../components/Breadcrumbs'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
 import ProductItem from '../components/ProductItem'
 
 function Single() {
   return (
     <>
-    <Header />
     <Breadcrumbs title = 'Single Page' />
 
     <div className="products">
@@ -79,8 +76,6 @@ function Single() {
 				</div>
 		</div>
 	</div>
-
-    <Footer />
     </>
   )
 }

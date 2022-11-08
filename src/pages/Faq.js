@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import Breadcrumbs from '../components/Breadcrumbs'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
 
 class Faq extends Component  {
     componentDidMount() {
@@ -25,7 +23,6 @@ class Faq extends Component  {
     render() {
         return (
             <>
-            <Header />
             <Breadcrumbs title = 'FAQ' />
         
             {/*  help-page  */}
@@ -91,8 +88,6 @@ class Faq extends Component  {
                     {/* <!-- script for tabs -->    */}
                 </div>
             </div>
-        
-            <Footer />
             </>
           )   
     }

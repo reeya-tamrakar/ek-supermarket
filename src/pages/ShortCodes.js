@@ -1,12 +1,9 @@
 import React from 'react'
 import Breadcrumbs from '../components/Breadcrumbs'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
 
 function ShortCodes() {
   return (
     <>
-    <Header />
     <Breadcrumbs title="Short Codes" />
 	<div className="w3_wthree_agileits_icons main-grid-border">
 		<div className="container">
@@ -1041,7 +1038,6 @@ function ShortCodes() {
 			</div>
 		</div>	
 	</div>
-    <Footer />
     </>
   )
 }

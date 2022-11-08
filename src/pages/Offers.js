@@ -1,13 +1,10 @@
 import React from 'react'
 import Breadcrumbs from '../components/Breadcrumbs'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
 import ProductItem from '../components/ProductItem'
 
 function Offers() {
   return (
     <>
-    <Header />
     <Breadcrumbs title = 'Offers' />
 
     <div className="top-brands">
@@ -61,8 +58,6 @@ function Offers() {
 			</div>
 		</div>
 	</div>
-
-    <Footer />
     </>
   )
 }

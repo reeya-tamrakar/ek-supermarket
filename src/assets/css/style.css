@@ -50,6 +50,7 @@ span.glyphicon.glyphicon-shopping-cart.my-cart-icon.my-cart-icon-affix {
 .agile_top_brand_left_grid {
     position: relative;
     display: block;
+    height: 100%;
 }
 i.badge.badge-notify.my-cart-badge {
     font-style: normal;
@@ -348,6 +349,7 @@ ul.multi-column-dropdown h6 {
 	background: #FFFFFF;
     padding: .5em;
 	position:relative;
+    height: 100%;
 }
 .agile_top_brand_left_grid_pos{
 	position:absolute;
@@ -371,6 +373,7 @@ ul.multi-column-dropdown h6 {
 	text-transform:capitalize;
 	font-size:14px;
 	text-align: center;
+    height: 70px;
 }
 .agile_top_brand_left_grid1 h4,.agileinfo_single_right_snipcart h4{
 	font-weight:600;
@@ -473,6 +476,7 @@ ul.multi-column-dropdown h6 {
 .column div.agile_top_brand_left_grid {
 	position: relative;
 	margin:0;
+    height: 100%;
 }
 .agile_top_brand_left_grid figure {
 	margin: 0;
@@ -563,9 +567,11 @@ p.w3l-ad {
 }
 .agile_top_brands_grids {
     margin-top: 40px;
+    display: flex;
 }
 .hover14.column {
     border: 1px solid #c0bebe;
+    height: 100%;
 }
 .stars {
     text-align: center;
@@ -924,7 +930,8 @@ a.w3_agile_vimeo:hover{
 .forgot {
     margin: 1.5em 0 0;
 }
-.login-form-grids input[type="submit"]{
+.login-form-grids input[type="submit"],
+.login-form-grids input[type="reset"]{
 	outline: none;
     border: none;
     padding: 10px 0;
@@ -935,7 +942,8 @@ a.w3_agile_vimeo:hover{
     background:#3399cc;
     margin: 1.5em 0 0;
 }
-.login-form-grids input[type="submit"]:hover{
+.login-form-grids input[type="submit"]:hover,
+.login-form-grids input[type="reset"]:hover{
 	background:#fe9126;
 }
 .login-form-grids ::-webkit-input-placeholder{
@@ -2830,6 +2838,7 @@ ul.faq {
 }
 .agile_top_brands_grids {
     margin-top: 2em;
+    display: flex !important;
 }
 .agileits_w3layouts_map_pos {
     width: 51%;

@@ -1,5 +1,6 @@
 import React from 'react'
 import OfferImage from '../assets/images/offer.png'
+import  '../App.css'
 
 function ProductItem(props) {
   let renderOffer = () => {
@@ -21,7 +22,7 @@ function ProductItem(props) {
                     <figure>
                         <div className="snipcart-item block" >
                             <div className="snipcart-thumb">
-                                <a href="products.html"><img title=" " alt=" " src="images/1.png" /></a>		
+                                <a href="products.html"><img src={props.url}/></a>		
                                 <p>{props.title}</p>
                                 {/* Title */}
                                 <div className="stars">

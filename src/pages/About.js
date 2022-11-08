@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import Breadcrumbs from '../components/Breadcrumbs'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
 import aboutImg1 from '../assets/images/p3.jpg'
 import aboutImg2 from '../assets/images/p4.jpg'
 import aboutImg3 from '../assets/images/t1.jpg'
@@ -31,7 +29,6 @@ class About extends Component {
   render() {            
     return (
     <>
-    <Header />
     <Breadcrumbs title = 'About' />
 
     {/* <!-- about --> */}
@@ -192,9 +189,7 @@ class About extends Component {
 		</div>
 	</div>
 	{/* <!-- //about-team --> */}
-
-      <Footer />
-      </>
+    </>
     )
   }
 }
